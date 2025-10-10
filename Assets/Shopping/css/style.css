@@ -219,8 +219,6 @@ body{
     font-weight: 600;
   }
 
-<<<<<<< HEAD
-=======
 
   /* Ini bagian responsive */
   @media (max-width: 576px) {
@@ -237,11 +235,19 @@ body{
       margin-top: 10px;
       justify-content: center;
     }
-  }
->>>>>>> da589bd (allProductView)
-  @media (max-width: 768px) {
+
+    /* Hero Image */
     .hero h1 {
       font-size: 2rem;
       letter-spacing: 4px;
     }
+
+    
   }
+
+  /* @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem;
+      letter-spacing: 4px;
+    }
+  } */
