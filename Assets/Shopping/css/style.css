@@ -219,6 +219,26 @@ body{
     font-weight: 600;
   }
 
+<<<<<<< HEAD
+=======
+
+  /* Ini bagian responsive */
+  @media (max-width: 576px) {
+    /* Navbar */
+    .navbar{
+        padding: 10px 23px;
+    }
+    .navbar-nav {
+      margin-left: 0;
+      text-align: center;
+    }
+
+    .icon-group {
+      margin-top: 10px;
+      justify-content: center;
+    }
+  }
+>>>>>>> da589bd (allProductView)
   @media (max-width: 768px) {
     .hero h1 {
       font-size: 2rem;
