@@ -5,40 +5,47 @@ body{
 }
 
 /* Ini navbar yaa kawan */
+.navbar {
+  padding: 10px 40px;
+  transition: all 0.3s ease; /* transisi halus */
+}
+
 .navbar-brand {
-    font-weight: 300;
-    letter-spacing: 1px;
-  }
+  font-weight: 300;
+  letter-spacing: 1px;
+}
 
-  .navbar-brand span {
-    font-weight: 700;
-  }
+.navbar-brand span {
+  font-weight: 700;
+}
 
-  .navbar-nav {
-    margin-left: 90px; 
-  }
+.navbar-nav {
+  margin-left: 90px;
+}
 
-  .nav-link {
-    font-size: 0.9rem;
-    font-weight: 600;
-    margin: 0 6px; 
-    color: #000 !important;
-  }
+.nav-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0 6px;
+  color: #000 !important;
+}
 
-  .icon-group i {
-    font-size: 1.1rem;
-    margin-left: 15px;
-    cursor: pointer;
-  }
+.icon-group i {
+  font-size: 1.1rem;
+  margin-left: 15px;
+  cursor: pointer;
+}
 
-  .navbar {
-    padding: 10px 40px;
+  .navbar.scrolled {
+    background-color: #fff !important;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
   }
 
 /* Ini bagian hero image */
   .hero {
     width: 88%;
-    margin: 20px auto;
+    margin: 90px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -242,7 +249,7 @@ body{
       letter-spacing: 4px;
     }
 
-    
+
   }
 
   /* @media (max-width: 768px) {
